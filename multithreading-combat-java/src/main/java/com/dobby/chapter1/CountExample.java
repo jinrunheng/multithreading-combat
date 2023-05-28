@@ -1,5 +1,6 @@
-package chapter1;
+package com.dobby.chapter1;
 
+import com.dobby.annotations.UnSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.ExecutorService;
@@ -13,6 +14,7 @@ import java.util.concurrent.Semaphore;
  * @Desc 计数器
  */
 @Slf4j
+@UnSafe
 public class CountExample {
 
     private static int threadTotal = 200;

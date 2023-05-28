@@ -1,4 +1,4 @@
-package chapter1;
+package com.dobby.chapter1;
 
 import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;

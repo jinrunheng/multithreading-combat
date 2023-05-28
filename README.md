@@ -12,4 +12,27 @@
 - 基本概念
     - 并发：多个线程操作相同的资源，保证线程安全，合理使用资源
     - 高并发：服务能同时处理很多请求，提高程序性能
+
+### Chapter3
+#### 并发模拟工具
+##### Postman
+##### Apache Bench(AB)
+示例：
+
+```shell script
+ab -n 100 -c 10 http://localhost:8080/test
+```
+`-n` 表示在测试会话中所执行的请求个数，默认时，仅执行一个请求；
+`-c` 表示一次产生的请求个数，默认是一次一个。
+
+##### Apache Jmeter
+
+运行 Jmeter：
+```shell script
+sh jmeter.sh
+```
+
+##### Semaphore, CountDownLatch 
+
+TODO 
             
